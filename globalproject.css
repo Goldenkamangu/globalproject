@@ -107,16 +107,16 @@ header nav ul li a:hover {
 }
 
 img {
-  transition: transform 0.2s;
+    transition: transform 0.2s;
 }
 
 img:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .service-item:hover {
-  transform: scale(1.05);  /* Slightly enlarge the card */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);  /* Add a bigger shadow */
+    transform: scale(1.05);  /* Slightly enlarge the card */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);  /* Add a bigger shadow */
 }
 
 /* About Section */
@@ -218,7 +218,8 @@ img:hover {
     gap: 1rem;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #ccc;
@@ -246,100 +247,97 @@ img:hover {
     text-align: center;
 }
 
-/* From Uiverse.io by satyamchaudharydev */ 
+/* From Uiverse.io by satyamchaudharydev */
 .button {
-  position: relative;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  padding-block: 0.5rem;
-  padding-inline: 1.25rem;
-  background-color: rgb(0 107 179);
-  border-radius: 9999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffff;
-  gap: 10px;
-  font-weight: bold;
-  border: 3px solid #ffffff4d;
-  outline: none;
-  overflow: hidden;
-  font-size: 15px;
-  cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: rgb(0 107 179);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .icon {
-  width: 24px;
-  height: 24px;
-  transition: all 0.3s ease-in-out;
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
 }
 
 .button:hover {
-  transform: scale(1.05);
-  border-color: #fff9;
+    transform: scale(1.05);
+    border-color: #fff9;
 }
 
 .button:hover .icon {
-  transform: translate(4px);
+    transform: translate(4px);
 }
 
 .button:hover::before {
-  animation: shine 1.5s ease-out infinite;
+    animation: shine 1.5s ease-out infinite;
 }
 
 .button::before {
-  content: "";
-  position: absolute;
-  width: 100px;
-  height: 100%;
-  background-image: linear-gradient(
-    120deg,
-    rgba(255, 255, 255, 0) 30%,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0) 70%
-  );
-  top: 0;
-  left: -100px;
-  opacity: 0.6;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0) 30%,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
 }
 
 @keyframes shine {
-  0% {
-    left: -100px;
-  }
-
-  60% {
-    left: 100%;
-  }
-
-  to {
-    left: 100%;
-  }
+    0% {
+        left: -100px;
+    }
+    60% {
+        left: 100%;
+    }
+    to {
+        left: 100%;
+    }
 }
 
 footer {
-    
     color: #fff; /* White text */
     text-align: bottom left; /* Center the text */
     padding: 1rem 0; /* Add some spacing */
     font-size: 0.875rem; /* Slightly smaller text */
-  }
-  
-  footer a {
+}
+
+footer a {
     color: #007bff; /* Link color */
     text-decoration: none; /* Remove underline */
-  }
-  
-  footer a:hover {
-    text-decoration: underline; /* Add underline on hover */
-  }
+}
 
-  .highlight {
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.highlight {
     color: #ff9100; /* Gold color */
     font-weight: bold; /* Make it stand out */
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     header nav ul {
         flex-direction: column;
         gap: 1rem;
@@ -351,96 +349,92 @@ footer {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 1rem; /* Add space between the logo and text */
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Add space between the logo and text */
 }
 
 .logo img {
-  max-width: 120px;
-  height: auto;
+    max-width: 120px;
+    height: auto;
 }
 
 .firm-name {
-  font-size: 1.8rem; /* Adjust font size as needed */
-  font-weight: bold;
-  color: #ffffff; /* Matches the header text color */
-  text-transform: uppercase; /* Optional: makes the name uppercase */
-  font-style: oblique;
+    font-size: 1.8rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #ffffff; /* Matches the header text color */
+    text-transform: uppercase; /* Optional: makes the name uppercase */
+    font-style: oblique;
 }
 
 /* FAQ Section */
-#faq {
-  text-align: center; /* Align the FAQ section title */
-  padding: 4rem 2rem;
-  background-color: #e6f2ff; /* Light blue background */
-}
-
 .faq-container {
-  max-width: 600px;
-  margin: 0 auto; /* Center the FAQ content */
-  background: #007BFF; /* Set FAQ card background to blue */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  color: white; /* Make text white for contrast */
+    max-width: 600px;
+    margin: 0 auto; /* Center the FAQ content */
+    background: #007BFF; /* Set FAQ card background to blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: white; /* Make text white for contrast */
 }
 
 details {
-  margin-bottom: 15px;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid #ddd;
-  background: #0056b3; /* Darker blue for individual FAQ items */
-  transition: border-color 0.3s;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background: #0056b3; /* Darker blue for individual FAQ items */
+    transition: border-color 0.3s;
 }
 
 details:hover {
-  border-color: #fff; /* White border on hover */
+    border-color: #fff; /* White border on hover */
 }
 
 summary {
-  padding: 15px;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  background: #0056b3; /* Keep the darker blue background for summary */
-  color: white; /* White text for better contrast */
-  outline: none;
-  position: relative;
-  transition: background-color 0.3s;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: #0056b3; /* Keep the darker blue background for summary */
+    color: white; /* White text for better contrast */
+    outline: none;
+    position: relative;
+    transition: background-color 0.3s;
 }
 
 summary:hover {
-  background-color: #004080; /* Slightly darker blue on hover */
+    background-color: #004080; /* Slightly darker blue on hover */
 }
 
 summary::marker {
-  font-size: 1.2rem;
-  color: white; /* Adjust marker color for visibility */
+    font-size: 1.2rem;
+    color: white; /* Adjust marker color for visibility */
 }
 
 details[open] summary {
-  background-color: #003366; /* Dark blue when opened */
-  color: white;
+    background-color: #003366; /* Dark blue when opened */
+    color: white;
 }
 
 details p {
-  padding: 15px;
-  margin: 0;
-  font-size: 0.95rem;
-  color: white; /* Keep text white */
-  background: #007BFF; /* Match the blue card background */
-  border-top: 1px solid #ddd;
+    padding: 15px;
+    margin: 0;
+    font-size: 0.95rem;
+    color: white; /* Keep text white */
+    background: #007BFF; /* Match the blue card background */
+    border-top: 1px solid #ddd;
 }
 
 /* FAQ Section Title */
+/* Uncomment and adjust if needed:
 #faq h2 {
-  color: #007BFF; /* Blue color for the text */
-  font-size: 2.5rem; /* Adjust font size if needed */
-  margin-bottom: 1rem;
+    color: #007BFF; 
+    font-size: 2.5rem; 
+    margin-bottom: 1rem;
 }
+*/
 
 /* Testimonials Section */
 #testimonials {
@@ -745,51 +739,31 @@ footer {
     Hamburger Menu (CSS-Only)
 --------------------------------------*/
 
-/* Hide the checkbox */
+/* Hide the checkbox used for toggling */
 #menu-toggle {
     display: none;
 }
 
-/* Style the hamburger icon */
+/* Initially hide the hamburger toggle on desktop */
 .menu-toggle {
     display: none;
-    font-size: 2rem;
-    cursor: pointer;
-    color: #fff;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    z-index: 1001;
 }
 
-/* Navigation Links */
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Default for desktop */
-    gap: 1.5rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Mobile Navigation */
+/* Responsive: Mobile Styles */
 @media (max-width: 768px) {
-    /* Show the hamburger icon */
+    /* Display hamburger menu toggle on mobile */
     .menu-toggle {
         display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #ffffff;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        z-index: 1001;
     }
-
-    /* Hide the navigation links by default */
+    
+    /* Hide regular nav links on mobile */
     nav ul {
         display: none;
         flex-direction: column;
@@ -802,80 +776,31 @@ nav ul li a:hover {
         border-radius: 5px;
         z-index: 2000;
     }
-
-    /* Show the navigation links when the checkbox is checked */
-    #menu-toggle:checked ~ nav ul {
+    
+    /* Show nav links when the checkbox is checked */
+    #menu-toggle:checked + .menu-toggle + nav ul {
         display: flex;
     }
-
+    
     nav ul li {
         margin: 10px 0;
         padding: 10px 20px;
     }
-
+    
     nav ul li a {
         font-size: 1rem;
         color: #fff8f8;
     }
 }
 
-/*--------------------------------------
-    Hamburger Menu (CSS-Only)
-  --------------------------------------*/
-  /* Hide the checkbox */
-  #menu-toggle {
-    display: none;
-  }
-  
-  /* Hide the hamburger toggle on desktop */
-  .menu-toggle {
-    display: none;
-  }
+How It Works
 
-  /*--------------------------------------
-    Responsive: Mobile Styles
-  --------------------------------------*/
-  @media (max-width: 768px) {
-    /* Display hamburger menu toggle on mobile */
-    .menu-toggle {
-      display: block;
-      font-size: 2rem;
-      cursor: pointer;
-      color: #ffffff;
-      position: absolute;
-      top: 15px;
-      right: 20px;
-      z-index: 1001;
-    }
-    
-    /* Hide regular nav links on mobile */
-    nav ul {
-      display: none;
-      flex-direction: column;
-      background: gray;
-      position: absolute;
-      top: 60px;
-      right: 20px;
-      width: 200px;
-      padding: 10px 0;
-      border-radius: 5px;
-      /* Ensure nav appears above hero content */
-      z-index: 2000;
-    }
-    
-    /* Show nav links when the checkbox is checked */
-    #menu-toggle:checked + .menu-toggle + nav ul {
-      display: flex;
-    }
-    
-    nav ul li {
-      margin: 10px 0;
-      padding: 10px 20px;
-    }
-    
-    nav ul li a {
-      font-size: 1rem;
-      color: #fff8f8;
-    }
-  }
+A hidden checkbox (#menu-toggle) is used to control the mobile navigation.
+
+The hamburger icon (.menu-toggle) appears only on mobile (screens less than 768px wide).
+
+The navigation (nav ul) is hidden by default on mobile and only displays when the checkbox is checked via the adjacent sibling selector.
+
+
+Make sure your HTML uses the checkbox hack (with the hidden checkbox, hamburger icon, and navigation in the proper order) so that this CSS works as intended. If you need help with the HTML structure, just let me know!
 
