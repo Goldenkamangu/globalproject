@@ -793,14 +793,4 @@ footer {
     }
 }
 
-How It Works
-
-A hidden checkbox (#menu-toggle) is used to control the mobile navigation.
-
-The hamburger icon (.menu-toggle) appears only on mobile (screens less than 768px wide).
-
-The navigation (nav ul) is hidden by default on mobile and only displays when the checkbox is checked via the adjacent sibling selector.
-
-
-Make sure your HTML uses the checkbox hack (with the hidden checkbox, hamburger icon, and navigation in the proper order) so that this CSS works as intended. If you need help with the HTML structure, just let me know!
 
