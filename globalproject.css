@@ -887,3 +887,9 @@ nav ul li a:hover {
         color: #fff8f8;
     }
 }
+
+.highlight-text {
+    color: var(--secondary-color); /* Dark Gray */
+    font-size: 1.5rem; /* Adjust font size if needed */
+    line-height: 1.6; /* Improve readability */
+}
