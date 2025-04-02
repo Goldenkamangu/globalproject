@@ -1,6 +1,9 @@
-// This script auto-closes the hamburger menu when any navigation link is clicked.
-document.querySelectorAll('nav ul li a').forEach(link => {
-  link.addEventListener('click', () => {
-    document.getElementById('menu-toggle').checked = false;
-  });
+document.addEventListener("DOMContentLoaded", function() {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", function() {
+        navLinks.classList.toggle("show"); // Toggle the visibility of the navigation menu
+    });
 });
+
